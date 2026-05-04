@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Frontend
+node_modules
+frontend/node_modules/
+dist
+dist-ssr
+frontend/dist/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+backend/venv/
+.venv/
+backend/.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python build/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+*.egg-info/
+
+# Database / local files
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# FastAPI / uvicorn
+*.pid
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+Thumbs.db
+desktop.ini

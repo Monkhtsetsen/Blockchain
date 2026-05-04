@@ -5,11 +5,21 @@ export type UserRole =
   | "transporter"
   | "consumer";
 
+export type Product = {
+  id: number;
+  product_code: string;
+  name: string;
+  animal_type: string;
+  origin_location: string;
+  qr_code: string;
+  created_at?: string;
+};
+
 export type TraceEvent = {
   event_id: number;
   event_type: string;
-  description: string;
-  location: string;
+  description: string | null;
+  location: string | null;
   temperature: number | null;
   event_time: string;
   transaction_hash: string | null;
